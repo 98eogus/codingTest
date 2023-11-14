@@ -20,7 +20,7 @@ public class Test2018_수들의합5 {
 		
 		int sum = arr[start];
 		
-		while(start<N) {	
+		while(end<=N) {	
 			
 			if(sum == N) {
 				answer++;
