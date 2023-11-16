@@ -13,7 +13,7 @@ public class Test15655_N과M6 {
 	static int result[];
 	static boolean isVisited[];
 	static int arr[];
-	static int cnt;
+	
 	static void function(int cnt, int size) {
 		
 		
@@ -26,7 +26,7 @@ public class Test15655_N과M6 {
 			return;
 		}
 		
-		for(int i = cnt++; i<N; i++) {
+		for(int i = cnt; i<N; i++) {
 			if(isVisited[i]==true) {
 				continue;
 			}
@@ -35,6 +35,7 @@ public class Test15655_N과M6 {
 			result[size] = arr[i];
 			function(i,size+1);
 			isVisited[i] = false;
+			cnt++;
 		}
 		
 	}

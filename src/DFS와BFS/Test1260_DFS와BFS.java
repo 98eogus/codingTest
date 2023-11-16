@@ -23,7 +23,6 @@ public class Test1260_DFS와BFS {
 		
 		for(int next : graph[start]) {
 			
-			
 			DFS(next);
 		}
 	}

@@ -57,8 +57,6 @@ public class Test2751_수정렬하기2 {
 		}
 
 
-		
-		
 		for(int i = start; i <=end; i++)
 			arr[i] = tmp[i];
 		
